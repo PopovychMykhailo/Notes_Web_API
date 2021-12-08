@@ -1,0 +1,6 @@
+
+Core level - Enterprise-bussines logic and types.
+
+Has 2 sub level:
+	Domain - Enterprise logic and types.
+	Application - Bussines logic and types.

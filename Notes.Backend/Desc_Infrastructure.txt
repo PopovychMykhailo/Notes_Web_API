@@ -1,0 +1,2 @@
+
+Infrastructure level - interaction with the database (persistence level).

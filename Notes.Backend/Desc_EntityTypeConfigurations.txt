@@ -1,0 +1,2 @@
+
+EntityTypeConfigurations - everything related to setting up entities in the database

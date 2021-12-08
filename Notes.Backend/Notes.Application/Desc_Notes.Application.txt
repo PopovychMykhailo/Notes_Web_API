@@ -1,0 +1,3 @@
+﻿
+Notes.Application -  Business logic and types, related to entities. 
+Usage scenarios, all the logic of working with entities (our notes): creating, editing, receiving, and so on.

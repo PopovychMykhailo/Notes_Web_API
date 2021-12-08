@@ -1,0 +1,2 @@
+﻿
+Mappings - program code that maps data from the UI to the database and back.

@@ -20,13 +20,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 		Desc_Presentation.txt = Desc_Presentation.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Domain", "Notes.Domain\Notes.Domain.csproj", "{FDD5B279-B581-449D-ACDA-43A09937BDFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Domain", "Notes.Domain\Notes.Domain.csproj", "{FDD5B279-B581-449D-ACDA-43A09937BDFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Application", "Notes.Application\Notes.Application.csproj", "{623E0220-17B6-45EB-A905-E3A639BD5CB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Application", "Notes.Application\Notes.Application.csproj", "{623E0220-17B6-45EB-A905-E3A639BD5CB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Persistence", "Notes.Persistence\Notes.Persistence.csproj", "{88921164-9B7E-4ECB-9AE7-095A12484045}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Persistence", "Notes.Persistence\Notes.Persistence.csproj", "{88921164-9B7E-4ECB-9AE7-095A12484045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.WebApi", "Notes.WebApi\Notes.WebApi.csproj", "{1B9D6C5D-DA06-4F8A-8C08-857040D7FF75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.WebApi", "Notes.WebApi\Notes.WebApi.csproj", "{1B9D6C5D-DA06-4F8A-8C08-857040D7FF75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Tests", "Notes.Tests\Notes.Tests.csproj", "{831ACE26-9EDB-4D72-9253-44D910119F88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,10 @@ Global
 		{1B9D6C5D-DA06-4F8A-8C08-857040D7FF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B9D6C5D-DA06-4F8A-8C08-857040D7FF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B9D6C5D-DA06-4F8A-8C08-857040D7FF75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831ACE26-9EDB-4D72-9253-44D910119F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831ACE26-9EDB-4D72-9253-44D910119F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831ACE26-9EDB-4D72-9253-44D910119F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831ACE26-9EDB-4D72-9253-44D910119F88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{623E0220-17B6-45EB-A905-E3A639BD5CB8} = {FFA125DD-EA48-4373-8498-FF1D1B98124B}
 		{88921164-9B7E-4ECB-9AE7-095A12484045} = {EE3C1627-83F5-46C8-BB18-6F28C1716FB2}
 		{1B9D6C5D-DA06-4F8A-8C08-857040D7FF75} = {1803E5CE-B0E2-4603-B3CC-71683869576F}
+		{831ACE26-9EDB-4D72-9253-44D910119F88} = {36D05FA0-81D3-4293-8BCC-0BFA3D2F5B21}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C215ABDB-6C0A-4B95-B64A-284F4A31F65E}

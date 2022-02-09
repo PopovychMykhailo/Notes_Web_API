@@ -25,7 +25,7 @@ namespace Notes.Application.Notes.Commands.UpdateNote
                     note.Id == requst.Id, cancellationToken);
 
             if (entity == null || entity.UserId != requst.UserId)
-                throw new NotFoundException(nameof(Note), entity.Id);
+                throw new NotFoundException(nameof(Note), requst.Id);
 
             entity.Title = requst.Title;
             entity.Details = requst.Details;
